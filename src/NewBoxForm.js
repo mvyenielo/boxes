@@ -1,4 +1,4 @@
-
+import { useState } from "react";
 
 function NewBoxForm({ addBox }) {
   const initialState = { height: 0, width: 0, color: "" };
@@ -48,3 +48,5 @@ function NewBoxForm({ addBox }) {
   );
 
 }
+
+export default NewBoxForm;
