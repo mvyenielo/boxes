@@ -1,4 +1,16 @@
-import { useState } from "react";
+import React, { useState } from "react";
+/**
+ * NewBoxForm: Form to add a new box to a list
+ *
+ * Props:
+ * -
+ *
+ * State:
+ * -
+ *
+ * App => BoxList => Box
+ *                => NewBoxForm
+ */
 
 function NewBoxForm({ addBox }) {
   const initialState = { height: 0, width: 0, color: "" };
